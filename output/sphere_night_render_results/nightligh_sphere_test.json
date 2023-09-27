@@ -1,0 +1,11 @@
+{
+    "TestName": "nightligh_sphere_test",
+    "Test_Executed": "02:48:44.036920 27/09/2023",
+    "Test_Finished": "02:48:44.042917 27/09/2023",
+    "Test_Duration": "0:00:00.00599",
+    "Environment": {
+        "CPU": "AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD",
+        "RAM": "32GB",
+        "OS": "Windows 10 10.0.19045"
+    }
+}
