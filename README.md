@@ -10,7 +10,7 @@ Also i was not able to export render logs inside code using any bpy function, be
 Also i could create class with fields for blender_path and output_path  but that would not go with the task, as well as to create one function that gets another function as argument, sets up scene, camera and lighting, executes function from argument and export all necessary files, but that as well would not go with given task, so i kept it simple but not as optimized as i could make it. If needed i could do that too.
 
 # Structure of code
-Structure is designed this way and could not be made any other way because when blender runs command it changes location in system and I could not target test_module.py file from there.
+I created execution of this tests by Page Object Model, but i was not able to create output log because of lack of functions for that in bpy.
 I did tasks object oriented, created Blender_Test class which has next methods:
 ## 1.create_new_scene()
 ## 2.set_lighting()
@@ -18,6 +18,8 @@ I did tasks object oriented, created Blender_Test class which has next methods:
 ## 4.render_image()
 ## 5.export_json()
 ## 6.create_cube_test()
+## 7.create_sphere_test_basic_light()
+## 8.create_sphere_test_night_light()
 
 # Functions that were necessary for executing tasks properly
 ## 1.create_new_scene()
